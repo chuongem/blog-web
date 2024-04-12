@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    // border-bottom: 1px solid #ccc;
+    height: 60px;
+    background-color: #fff;
+}
+.wrapper-header {
+    max-width: 1020px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    margin: 0 10px;
+    color: #000;
+    font-weight: bold;
+}
+.item.active {
+    color: #10B48E;
+}
+.container {
+    margin-top: 60px;
+}
